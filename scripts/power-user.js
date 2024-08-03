@@ -1436,7 +1436,24 @@ async function showDebugMenu() {
     callGenericPopup(template, POPUP_TYPE.TEXT, '', { wide: true, large: true, allowVerticalScrolling: true });
 }
 
-//i hope this works
+switchUiMode();
+applyFontScale('forced');
+applyThemeColor();
+applyChatWidth('forced');
+applyAvatarStyle();
+applyBlurStrength();
+applyShadowWidth();
+applyCustomCSS();
+switchMovingUI();
+noShadows();
+switchHotswap();
+switchTimer();
+switchTimestamps();
+switchIcons();
+switchMesIDDisplay();
+switchHideChatAvatars();
+switchTokenCount();
+switchMessageActions();
 
 function getExampleMessagesBehavior() {
     if (power_user.strip_examples) {
