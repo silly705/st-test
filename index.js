@@ -2,10 +2,10 @@
 // The following are examples of some basic extension functionality
 
 //You'll likely need to import extension_settings, getContext, and loadExtensionSettings from extensions.js
-import { extension_settings, getContext, loadExtensionSettings } from "/extensions.js";
+import { extension_settings, getContext, loadExtensionSettings } from "extensions.js";
 
 //You'll likely need to import some other functions from the main script
-import { saveSettingsDebounced, eventSource, event_types } from "/script.js";
+import { saveSettingsDebounced, eventSource, event_types } from "script.js";
 
 // Keep track of where your extension is located, name should match repo name
 const extensionName = "st-test";
