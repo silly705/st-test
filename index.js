@@ -18,7 +18,7 @@ eventSource.on(event_types.CHARACTER_MESSAGE_RENDERED, handleCharacterMessageSen
 
 function handleCharacterMessageSent(data) {
   const context = getContext();
-  console.log(context.chat[1].toString();
+  console.log(context.chat[1].toString());
 }
 
 // Loads the extension settings if they exist, otherwise initializes them to the defaults.
